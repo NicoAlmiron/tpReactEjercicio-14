@@ -1,0 +1,43 @@
+{
+  "recetas": [
+    {
+      "id": 1,
+      "idUser": 1,
+      "nombreReceta": "Ensalada de verduras",
+      "categoria": "entradas",
+      "descripcion": "una rica ensalada fresca de verduras para la entrada de un buen plato exquisito",
+      "imagen": "https://www.comedera.com/wp-content/uploads/2021/12/ensalada-de-lechuga1.jpg",
+      "ingredientes": "tomate, lechuga, cebolla, limon, sal, vinagre",
+      "calificaciones": [
+        {
+          "idUserComent": 3,
+          "valoracion": 4,
+          "comentario": "muy rico"
+        }
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombreUsuario": "admin",
+      "email": "admin@gurdev.com",
+      "password": "Admin2023",
+      "role": "administrador"
+    },
+    {
+      "id": 2,
+      "nombreUsuario": "moderador",
+      "email": "moder@gurdev.com",
+      "password": "Mode2023",
+      "role": "moderador"
+    },
+    {
+      "id": 3,
+      "nombreUsuario": "user",
+      "email": "user@gurdev.com",
+      "password": "User2023",
+      "role": "user"
+    }
+  ]
+}
