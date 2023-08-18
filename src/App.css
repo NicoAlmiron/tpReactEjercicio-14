@@ -6,5 +6,11 @@
 }
 
 .titulo {
-  font-family: "Caprasimo";
+  font-family: "Bungee Spice";
+}
+
+.banner {
+  object-fit: cover;
+  height: 395px;
+  width: 100%;
 }

@@ -16,7 +16,7 @@ const Menu = () => {
               <NavLink end to={"/"} className="nav-link">
                 Inicio
               </NavLink>
-              <NavLink end to={"/registrarse"} className="nav-link">
+              <NavLink end to={"/register"} className="nav-link">
                 Registrarse
               </NavLink>
               <NavLink end to={"/misRecetas"} className="nav-link">
